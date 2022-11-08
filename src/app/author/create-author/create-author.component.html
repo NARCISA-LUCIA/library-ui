@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="main-image-book">
+        <mat-card class="book-card">
+            <div class="image">
+                <img mat-card-image src="../../assets/book-picture.PNG" alt="Book picture">
+            </div>
+            <div class="main-author">
+                <h3>Author name</h3>
+                <div class="form" [formGroup]="formControlGroup">
+                    <mat-form-field appearance="outline" class="field-author">
+                        <input matInput placeholder="First Name" formControlName="firstName">
+                        <mat-icon matSuffix>person</mat-icon>
+                    </mat-form-field>
+                </div>
+                <div class="form" [formGroup]="formControlGroup">
+                    <mat-form-field appearance="outline" class="field-author">
+                        <input matInput placeholder="LastName" formControlName="lastName">
+                        <mat-icon matSuffix>person</mat-icon>
+                    </mat-form-field>
+                </div>
+                <div class="button-author">
+                    <button mat-flat-button color="primary" (click)="createAuthor()">Submit</button>
+                    <button mat-flat-button color="warn" routerLink="/author/">Home page</button>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>

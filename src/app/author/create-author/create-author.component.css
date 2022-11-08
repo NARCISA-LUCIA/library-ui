@@ -1,0 +1,31 @@
+.book-card {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  background-color: gray;
+}
+
+.main-author {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  box-shadow: 0 0 40px grey;
+  padding: 20px;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.button-author {
+  display: flex;
+  gap: 20px;
+}
+
+.field-author {
+    width: 100%;
+  }

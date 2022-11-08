@@ -1,0 +1,14 @@
+
+table{
+width:100%;
+margin-top: 20px;
+background-color: palegoldenrod;
+}
+
+.main-container-book{
+    padding: 30px;
+}
+
+th{
+  background-color:paleturquoise;
+}

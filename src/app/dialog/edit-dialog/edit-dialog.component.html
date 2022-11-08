@@ -1,0 +1,23 @@
+<div class="form" [formGroup]="data.formControlGroup">
+    <div class="form-box">
+        <h3>Edit Author</h3>
+        <mat-form-field class="form-width" appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstName">
+            <mat-icon matSuffix>local_library</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="form-width" appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastName">
+            <mat-icon matSuffix>local_library</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="author-update">
+        <div class="button-back-author">
+            <button mat-stroked-button color="primary" (click)="onClose()"> Close</button>
+        </div>
+        <div class="button-update-author">
+            <button mat-raised-button color="primary" [mat-dialog-close]="data">Update</button>
+        </div>
+    </div>
+</div>
