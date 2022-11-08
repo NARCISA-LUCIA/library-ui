@@ -1,0 +1,16 @@
+.author-update {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width:300px;
+  }
+  
+  .form-box {
+    display: flex;
+    flex-direction: column;
+  }
+  

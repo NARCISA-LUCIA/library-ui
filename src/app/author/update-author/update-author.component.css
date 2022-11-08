@@ -1,0 +1,53 @@
+.book-card {
+  box-shadow: 20px 30px 20px grey;
+  padding: 50px;
+  border-radius: 8px solid black;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: rgba(29, 171, 119, 0.674);
+  gap: 30px;
+}
+
+img.mat-card-image {
+  border-radius: 100px 0px 100px 0px;
+}
+
+.image {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image-book {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.main-author {
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px 0px 100px 0px;
+  background-color: white;
+  width: 350px;
+  padding: 40px;
+}
+
+.field-author {
+  width: 100%;
+}
+
+.button-author {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

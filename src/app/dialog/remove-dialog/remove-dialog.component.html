@@ -1,0 +1,5 @@
+<h3>Are you sure you want to remove author <span>{{data.author.firstName}}</span> ?</h3>
+<div mat-dialog-actions>
+    <button mat-raised-button (click)="onClose()">Close</button>
+    <button mat-raised-button color="warn" [mat-dialog-close]="data">Delete</button>
+</div>
