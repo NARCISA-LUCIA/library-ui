@@ -1,0 +1,26 @@
+  
+  <div class="form-box">
+    <h3>Update Library</h3>
+    <div class="form" [formGroup]="formControlGroup">
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="" formControlName="name">
+            <mat-icon matSuffix>import_contacts</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="form" [formGroup]="formControlGroup">
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Address</mat-label>
+            <input matInput placeholder="" formControlName="address">
+            <mat-icon matSuffix>import_contacts</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="library-update">
+        <div class="button-update-library">
+            <button mat-raised-button color="primary" (click)="updateLibrary()">Update</button>
+        </div>
+        <div class="button-back-library">
+            <button mat-raised-button (click)="goBack()">Back</button>
+        </div>
+    </div>
+</div>

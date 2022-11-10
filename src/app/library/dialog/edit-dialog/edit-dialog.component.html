@@ -1,0 +1,23 @@
+<div class="form" [formGroup]="data.formControlGroup">
+    <div class="form-box">
+        <h3>Edit Library</h3>
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="" formControlName="name">
+            <mat-icon matSuffix>import_contacts</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Address</mat-label>
+            <input matInput placeholder="" formControlName="address">
+            <mat-icon matSuffix>import_contacts</mat-icon>
+        </mat-form-field>
+        <div class="library-edit">
+            <div class="button-edit-library">
+                <button mat-raised-button color="primary" (click)="onClose()">Close</button>
+            </div>
+            <div class="button-update-library">
+                <button mat-raised-button color="warn" [mat-dialog-close]="data">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
