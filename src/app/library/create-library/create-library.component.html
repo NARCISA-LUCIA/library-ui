@@ -1,0 +1,23 @@
+<div class="box">
+    <div class="form-box">
+        <h3>Add Library</h3>
+        <div class="form" [formGroup]="formControlGroup">
+            <mat-form-field class="form-width" appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="" formControlName="name">
+                <mat-icon matSuffix>import_contacts</mat-icon>
+            </mat-form-field>
+        </div>
+        <div class="form" [formGroup]="formControlGroup">
+            <mat-form-field class="form-width" appearance="outline">
+                <mat-label>Address</mat-label>
+                <input matInput placeholder="" formControlName="address">
+                <mat-icon matSuffix>import_contacts</mat-icon>
+            </mat-form-field>
+        </div>
+        <div class="button-create">
+            <button mat-raised-button color="accent" (click)="createLibrary()">Submit New Library</button>
+            <button mat-raised-button color="primary" (click)="goBack()">Back</button>
+        </div>
+    </div>
+</div>

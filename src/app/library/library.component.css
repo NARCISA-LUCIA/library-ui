@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+}
+
+.main-container {
+  padding: 30px;
+}
+
+.add-library-button {
+  margin-bottom: 10px;
+}
+
+.mat-row:hover {
+  background-color: goldenrod;
+  cursor: pointer;
+}
