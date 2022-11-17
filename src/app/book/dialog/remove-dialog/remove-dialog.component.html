@@ -1,0 +1,8 @@
+<mat-icon>
+    delete_forever
+</mat-icon>
+<h3>Delete book</h3>
+
+Deleting a book will permanently remove it from your library.
+<button mat-raised-button color="primary" (click)="onClose()">No, keep book</button>
+<button mat-raised-button color="accent" [mat-dialog-close]="data">Yes, delete book</button>
