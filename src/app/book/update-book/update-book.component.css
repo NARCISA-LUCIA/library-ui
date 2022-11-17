@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-box {
+  box-shadow: 0 0 50px #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form-width {
+  width: 100%;
+}
+
+.button-update {
+  display: flex;
+  gap: 20px;
+}

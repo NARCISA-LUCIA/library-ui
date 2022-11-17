@@ -1,0 +1,29 @@
+<div class="form-container" [formGroup]="data.formControlGroup">
+    <div class="form-box">
+        <h3>Edit Book</h3>
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name">
+            <mat-icon matSuffix>library_books</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Description</mat-label>
+            <input matInput formControlName="description">
+            <mat-icon matSuffix>library_books</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="form-width" appearance="legacy">
+            <mat-label>Release Year</mat-label>
+            <input matInput formControlName="releaseYear">
+            <mat-icon matSuffix>library_books</mat-icon>
+        </mat-form-field>
+        
+    </div>
+    <div class="event-update">
+        <div class="button-back-event">
+            <button mat-stroked-button color="accent" (click)="onClose()"> Close</button>
+        </div>
+        <div class="button-update-event">
+            <button mat-raised-button color="primary" [mat-dialog-close]="data">Update</button>
+        </div>
+    </div>
+</div>
